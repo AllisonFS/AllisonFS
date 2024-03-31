@@ -6,7 +6,7 @@
 
 ![Allison's GitHub stats](https://github-readme-stats.vercel.app/api?username=AllisonFS&show_icons=true&theme=radical)
 
-<img src="https://github-profile-trophy.vercel.app/?username=madushadhanushka&theme=juicyfresh&no-bg=true" />
+<img src="https://github-profile-trophy.vercel.app/?username=AllisonFS&theme=juicyfresh&no-bg=true" />
 
 ## Tecnologias que gosto de usar  📲💻
 
