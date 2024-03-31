@@ -46,7 +46,7 @@ html {
     width: 100%;
     background-color: black;
     height: calc(100vh - 80px);
-    background-image: url("/Portifólio/Images/programador.png");
+    background-image: url("/AllisonFS/Portifólio/Images/programador.png");
     display: flex;
     align-items: center;
     padding-left: 10%;
@@ -221,4 +221,97 @@ footer p {
     font-style: italic;
 }
 /*Fim Footer*/
+
+/*Inicio Reposividade*/
+
+@media (max-width: 1050px){
+
+    /*Inicio main*/
+
+    .main h1 {
+        font-size: 30px
+    }
+
+    .main p {
+        font-size: 15px;
+    }
+
+    .main {
+        background-size: cover;
+        padding-left: 0;
+        padding: 10%;
+    }
+
+    .call-to-action {
+        font-size: 17px;
+    }
+
+    .nav {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Fim main*/
+
+    /*Inicio Sobre*/
+
+    .about {
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .about div {
+        max-width: 80%;
+        margin-top: 30px;
+
+    }
+
+    .about div h2{
+        font-size: 45px;
+    }
+
+    .about img {
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    /*Fim Sobre*/
+
+    /*Inicio Projetos*/
+
+    .projects img {
+        width: 27.5%;
+    }
+
+    .projects h3 {
+        margin-top: 0;
+        padding: 5%;
+        text-align: center;
+    }
+
+    /*Fim Projetos*/
+
+    /*Início Footer*/
+    footer {
+        flex-direction: column;
+    }
+
+    footer h3 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    footer p {
+        margin: 0;
+    }
+    /*Fim Footer*/
+    
+
+
+}
+
+/*Fim Reposividade*/
 
