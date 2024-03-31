@@ -2,7 +2,7 @@
 
 #Prazer! Tenho uma enorme paixão em aprender. Sempre estou fuçando coisas novas e nunca mato essa sede. Na programação essa sede não vai acabar mesmo 😂💻
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Disciplina+Constância+Metas+Evolução)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Carregando....+Brincadeira)](https://git.io/typing-svg)
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/allisonfs_)
 [![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@RochedoFs)
