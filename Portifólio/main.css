@@ -46,7 +46,7 @@ html {
     width: 100%;
     background-color: black;
     height: calc(100vh - 80px);
-    background-image: url("/AllisonFS/Portifólio/Images/programador.png");
+    background-image: url("/Portifólio/Images/programador.png");
     display: flex;
     align-items: center;
     padding-left: 10%;
