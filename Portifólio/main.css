@@ -107,7 +107,7 @@ html {
 }
 
 .about img {
-    max-width: 450px;
+    max-width: 500px;
     border-radius: 20px;
     transition: 0.9s;
 }
@@ -178,7 +178,12 @@ html {
     height: calc(100vh - 150px);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+.contats h1 {
+    font-style: italic;
 }
 
 .incos-list {
@@ -200,6 +205,9 @@ html {
     width: 70vh;
     transition: 1s;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contats div div:hover {
@@ -207,7 +215,6 @@ html {
 }
 
 .contats h3 {
-    padding-left: 23%;
     color: #FFFFFF;
 }
 
@@ -241,6 +248,43 @@ footer p {
     font-style: italic;
 }
 /*Fim Footer*/
+
+/*inicio Side-bar*/
+
+.side-bar {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rgba(104, 107, 110, 0.541);
+    backdrop-filter: blur(10px);
+    width: 250px;
+    z-index: 999;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.side-bar li {
+    width: 100%;
+    padding: 10px;
+}
+
+.side-bar a {
+    width: 100%;
+}
+
+.menu-bar {
+    display: none;
+}
+
+
+
+
+/*fim Side-bar*/
 
 /*Inicio Reposividade*/
 
@@ -316,6 +360,11 @@ footer p {
 
     /*Inicio Contatos*/
 
+    .contats {
+        display: flex;
+        flex-direction: column;
+    }
+
     .contats div div {
         width: 100%;
         margin: 20px;
@@ -324,14 +373,14 @@ footer p {
     .contats div {
         padding: 10px;
     }
-
-    .contats h3 {
-        padding-left: 21.5%;
-    }
     
     .contats img {
         width: 60px;
         border-radius: 20px;
+    }
+
+    .contats h3 {
+        font-size: 10px;
     }
     
 
@@ -351,6 +400,23 @@ footer p {
         margin: 0;
     }
     /*Fim Footer*/
+    
+    /* inicio side bar*/
+
+    .hideOnMobile {
+        display: none;
+    }
+
+    .nav-list img {
+        padding-left: 150%;
+    }
+
+    .menu-bar {
+        display: block;
+    }
+
+
+    /* fim side bar */
 
     
 
