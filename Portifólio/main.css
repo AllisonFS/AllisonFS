@@ -169,35 +169,55 @@ html {
     width: 25%;
 }
 
-.action {
+/*Fim Projects*/
+
+/*Inicio Contatos*/
+
+.contats {
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.incos-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contats div {
+    display: flex;
+    padding: 20px;
+}
+
+.contats div div {
     background-color: #181818;
-    padding: 14px 28px;
-    border: 0;
-    border-radius: 10px;
-    font-weight: bolder;
-    margin-top: 20px;
-    font-size: 18px;
+    margin: 20px;
+    border-radius: 30px;
+    width: 70vh;
+    transition: 1s;
     cursor: pointer;
-    transition: 0.9s;
 }
 
-.action:hover{
-    transform: scale(1.2);
+.contats div div:hover {
+    transform: scale(1.1);
 }
 
-.action a {
-    text-decoration: none;
+.contats h3 {
+    padding-left: 23%;
     color: #FFFFFF;
 }
 
-.projects h3 {
-    margin-top: 20px;
-    font-weight: bolder;
-    font-style: italic;
+.contats img {
+    width: 80px;
+    border-radius: 20px;
 }
 
 
-/*Fim Projects*/
+/*Fim Contatos*/
 
 /*inicio Footer*/
 
@@ -294,6 +314,29 @@ footer p {
 
     /*Fim Projetos*/
 
+    /*Inicio Contatos*/
+
+    .contats div div {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .contats div {
+        padding: 10px;
+    }
+
+    .contats h3 {
+        padding-left: 21.5%;
+    }
+    
+    .contats img {
+        width: 60px;
+        border-radius: 20px;
+    }
+    
+
+    /*Fim Contatos*/
+
     /*Início Footer*/
     footer {
         flex-direction: column;
@@ -308,6 +351,7 @@ footer p {
         margin: 0;
     }
     /*Fim Footer*/
+
     
 
 
